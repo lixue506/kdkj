@@ -1,0 +1,70 @@
+/* 标签选择器
+div{
+	width: 200px;
+	height: 300px;
+	background-color: #1b37c6;
+	/* bgc  背景色 tab自动补全 */
+	/* solid 边框 */
+	/*      粗细 实线   颜色 */
+	/* border: 2px solid #ff5500; */
+	/* 外边距 上右下左 */
+	/* margin: 30px 100px 200px 300px;
+	/* 内边距  撑大整个矩形*/
+	/* padding: 100px; */ 
+	/*  */
+	/* margin: 0 auto; */
+/* } */
+/* 后代选择器 */
+/* ul li */
+/* .list li{ */
+	/* list-style: none; */
+	/* padding: 0 30px; */
+	/* float: left; */
+/* } */
+
+
+
+/* li{
+	/* 清除列表样式 */
+	/* list-style: none; */
+	/* 浮动 横排 */
+	/* float: left; */
+	/* 内边距 两个数值指的是上下左右*/
+	/* padding: 0 30px; */
+/* }  */
+
+.ra{
+	width: 274px;
+	height: 226px;
+	background-color: hotpink;
+	/* 圆角 */
+	border-radius: 6px ;
+	/* 边框 */
+	border: 6px solid green;
+	background-image: url(../img/icons.png);
+	background-position: -150px -199px;
+}
+/* 相对定位 */
+.f{
+	width: 180px;
+	height: 300px;
+	background-color: skyblue;
+	
+	/* 相对定位 给父级 */
+	position: relative;
+	left: 50px;
+	
+}
+.son{
+	width: 80px;
+	height: 80px;
+	background-color: yellowgreen;
+	/* 正圆 或者高度的一半 */
+	border-radius: 50%;
+	/* 绝对定位   给子级div 内部 */
+	position: absolute;
+	left: 320px;
+	bottom: 0;
+}
+
+/* 绝对定位 */

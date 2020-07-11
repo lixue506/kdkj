@@ -1,0 +1,68 @@
+/* 移动 */
+.translate{
+	width: 300px;
+	height: 200px;
+	background-color: #8F59A3;
+	/* 过渡          2s时间*/
+	transition: all 2s;
+}
+/* 鼠标经过 */
+.translate:hover{
+	/*                       移动xy轴 */
+	/* transform: translate(300px, 500px); */
+	/*                    300px处可写50% */
+	transform: translateX(300px);
+}
+
+
+
+/* 旋转 */
+.rotate{
+	width: 100px;
+	height: 100px;
+	background-color: greenyellow;
+	margin: 0 auto;
+	/* 该元素的内容若超出了给定的宽度和高度属性，
+	超出的部分将会被隐藏，不占位。 */
+	overflow: hidden;
+	transition: all 2s;
+}
+.rotate img{
+	width: 100px;
+	height: 100px;
+}
+.rotate:hover{
+	/*            x,y轴旋转 */
+	/* transform: rotate(280deg); */
+	/* 旋转度数 */
+	transform: rotateX(280deg);
+	/* transform: rotate(90deg, 180deg): */
+}
+
+
+/* 缩放 */
+.scale{
+	width: 200px;
+	height: 200px;
+	background-color: yellow;
+	transition: all 2s;
+}
+/* 缩放    倍数*/
+.scale:hover{
+	transform: scale(1.5);
+}
+
+
+
+/* 倾斜 */
+.skew{
+	width: 200px;
+	height: 200px;
+	background-color: pink;
+	transition: all 2s;
+}
+/* 倾斜    角度*/
+.skew:hover{
+	/*             x20     y40度 */
+	transform: skew(20deg,40deg);
+}
